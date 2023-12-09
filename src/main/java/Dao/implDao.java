@@ -7,15 +7,15 @@ import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 
 public interface implDao {
-	//新增連線方法 產生entityManager物件
-	static EntityManager getDb() //java 8------------------------------------------
+	//7777 1:24 新增連線方法 產生entityManager物件
+	static EntityManager getDb() //2:03 java 8--------------------------------------
 	{
 		EntityManagerFactory EMF=Persistence.createEntityManagerFactory("Company");
 		EntityManager EM=EMF.createEntityManager();//連上線再丟給 EM
 		return EM;
 	}
 	
-	//新增物件
+	//新增物件 2:05
 		void add(Object o);
 		
 		

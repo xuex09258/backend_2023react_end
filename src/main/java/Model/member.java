@@ -9,7 +9,7 @@ import javax.persistence.Table;
 @Entity   //Entity object = new Entity()的意思
 @Table(name="member")
 public class member {
-	@Id
+	@Id   //6666 5:00
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private Integer id;
 	private String name;
