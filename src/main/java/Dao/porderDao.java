@@ -28,6 +28,10 @@ public class porderDao implements implDao{
 		List l=q.getResultList();
 		
 		System.out.println(l);//先看有幾筆*/
+//7777 3:51  list
+		
+		
+		
 /*//加條件-------------------------------------------------------------
 		String JPQL="select p from porder p";//加條件看Sample 5
 		EntityManager em=implDao.getDb();
@@ -66,7 +70,7 @@ public class porderDao implements implDao{
 		
 	}
 
-	@Override
+	@Override //3:30 JPQL
 	public List queryAll() {
 		String JPQL="select p from porder p";
 		EntityManager em=implDao.getDb();

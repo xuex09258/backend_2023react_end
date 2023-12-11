@@ -137,7 +137,7 @@ public static member queryUser(String username) {
 		return m;
 	}
 
-	@Override
+	@Override  //3:29 JPQL 
 	public List queryAll() { //下午的JPQL------------------------------------
 		String JPQL="select m from member m";
 		EntityManager em=implDao.getDb();
